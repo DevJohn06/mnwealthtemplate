@@ -33,10 +33,6 @@ p {
     font-family: roboto-regular;
 }
 
-a {
-    transition: all 0.4s ease;
-}
-
 a:hover {
     text-decoration: none;
     color: white;
@@ -232,7 +228,13 @@ body {
     font-family: roboto-bold;
     color: #27AE60;
     font-size: 2.5rem;
+    transition: all 0.4s ease;
 }
+
+.content__section--contact-info a:hover {
+    color: #eeaf21;
+}
+
 
 
 /* end content */
@@ -451,8 +453,15 @@ body {
 .content--termpol span {
     font-size: 35px;
     color: white;
+    transition: all 0.4s ease;
     font-family: roboto-medium;
 }
+
+.content--termpol a:hover {
+    color: #eeaf21;
+}
+
+
 
 .content--copyright h5 {
     color: white;
