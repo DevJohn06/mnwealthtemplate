@@ -1,0 +1,494 @@
+/* custom fonts */
+
+@font-face {
+    font-family: roboto-regular;
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: roboto-bold;
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+
+@font-face {
+    font-family: roboto-medium;
+    src: url('../fonts/Roboto-Medium.ttf');
+}
+
+
+/* end custom fonts */
+
+
+/* base css */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: roboto-bold;
+}
+
+p {
+    font-family: roboto-regular;
+}
+
+a {
+    transition: all 0.4s ease;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+html {
+    overflow-x: none
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+
+/* colors */
+
+.nav-bkg-color {
+    background-color: #fff;
+}
+
+.uk-navbar-nav>li.uk-active>a {
+    background-color: #27AE60 !important;
+}
+
+.text--color-white {
+    color: #fff;
+}
+
+.section--bkgcolor-dwhite {
+    background-color: #f7f7f7;
+}
+
+.text--color-green {
+    color : #27AE60;
+}
+/* end colors */
+
+
+/* nav */
+
+.nav-space {
+    padding: 10px 50px;
+}
+
+.nav-space-items {
+    padding: 15px 50px;
+}
+
+.menu {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.logo {
+    width: 140px;
+    bottom: 16px;
+}
+
+.logo a:hover,
+.logo a:focus {
+    background: transparent !important;
+}
+
+.nav-space {
+    padding: 10px 50px;
+}
+
+.nav-space-items li>a {
+    font-family: roboto-regular;
+    font-size: 15px;
+    color: #000;
+    font-weight: bolder;
+    transition: all 0.4s ease;
+}
+
+.nav-space-items li>a:focus,
+.nav-space-items li:hover>a {
+    background-color: #27AE60;
+    color: white;
+    cursor: pointer;
+}
+
+.uk-navbar-nav>li.uk-active>a {
+    background-color: #2d3e52;
+    color: white;
+}
+
+.uk-navbar-nav>li>a {
+    padding: 0 30px;
+}
+
+.uk-slidenav,
+.uk-slidenav-contrast:focus,
+.uk-slidenav-contrast:hover {
+    color: #27AE60;
+}
+
+
+/* end nav */
+
+
+/* overlay filter */
+
+.overlay {
+    position: relative;
+}
+
+.overlay:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.filter:before {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+/* end overlay filter */
+
+
+/* section */
+
+.section {
+    width: 100%;
+    position: relative;
+}
+
+.section--footer {
+    background-color: #27AE60;
+    color: white;
+}
+
+.section--contact {
+    background-color: #e0e0e0;
+}
+
+.section--about {
+    background-color: #F7F9E5;
+}
+
+
+/* end section */
+
+
+/* content */
+
+.content {
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.content--align-left {
+    text-align: left;
+}
+
+.content--align-center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container {
+    width: 85%;
+}
+
+.content__header--title {
+    font-size: 3.5rem;
+    color: #27AE60;
+}
+
+.content__header--subtitle {
+    font-size: 2.5rem;
+    color: #27AE60;
+}
+
+.content__section--news {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.content__section--news-text p {
+    font-family: roboto-medium;
+    font-size: 15px;
+}
+
+.content__section--contact-info a {
+    font-family: roboto-bold;
+    color: #27AE60;
+    font-size: 2.5rem;
+}
+
+
+/* end content */
+
+
+/* button */
+
+.mn-button {
+    font-size: 20px;
+    padding: 10px;
+    font-family: roboto-medium;
+    color: white;
+    position: relative;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.button--green {
+    background-color: #27AE60;
+}
+
+.button--green:hover {
+    background-color: #eeaf21;
+}
+
+.button--banner {
+    border: solid 5px white;
+}
+
+.button--banner:hover {
+    background-color: #27AE60;
+    border-color: #27AE60;
+}
+
+
+/* button */
+
+
+/* space */
+
+.space--top-1 {
+    padding-top: 10px;
+}
+
+.space--top-2 {
+    padding-top: 20px;
+}
+
+.space--top-3 {
+    padding-top: 30px;
+}
+
+.space--top-4 {
+    padding-top: 40px;
+}
+
+.space--top-5 {
+    padding-top: 50px;
+}
+
+.space--bottom {
+    padding-bottom: 5%;
+}
+
+.space--left-form {
+    padding-left: 58px;
+}
+
+.space--no-margin {
+    margin: 0 !important;
+}
+
+
+/* end space */
+
+
+/* container */
+
+.container {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+
+/* end container */
+
+
+/* images */
+
+.img__container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.img__container--product {
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+
+/* end images */
+
+
+/* header */
+
+.header--news {
+    text-align: left;
+    color: #27AE60;
+    font-size: 20px;
+}
+
+
+/* end header */
+
+
+/* icon */
+
+.icon--space-right {
+    padding-right: 10px;
+}
+
+
+/* end icon */
+
+
+/* form */
+
+.input__field {
+    height: 45px;
+    font-size: 20px !important;
+    line-height: 1.6;
+    vertical-align: middle;
+    padding-left: 33px;
+    font-family: roboto-medium;
+}
+
+.input--kohana {
+    background: #F3F3F3;
+}
+
+.input__label-content {
+    padding: 0px;
+}
+
+.input__label--kohana,
+.icon {
+    color: #9A9696;
+    line-height: 0.6;
+    font-size: 20px;
+}
+
+.input__label--kohana {
+    font-family: roboto-medium;
+    font-weight: normal;
+}
+
+.icon {
+    position: relative;
+    left: -13px;
+    width: 35px;
+}
+
+.input {
+    max-width: 485px;
+}
+
+.input--contact {
+    max-width: unset;
+}
+
+.input__field--contact {
+    height: 20px;
+    left: 50px;
+}
+
+.input--textarea textarea {
+    background-color: #F3F3F3;
+    height: 250px;
+    padding: 6px 0px 0px 35px;
+    overflow: hidden;
+}
+
+.input--textarea {
+    width: 550px;
+    padding-left: 20px;
+}
+
+
+/* end form */
+
+
+/* footer */
+
+.social--icons li {
+    display: inline-block;
+}
+
+.social--icons li a {
+    padding: 0 15px;
+    font-size: 40px;
+    color: white;
+}
+
+.social--icons li a:hover {
+    cursor: pointer;
+}
+
+.contet--termpol {
+    text-align: center;
+}
+
+.content--termpol a,
+.content--termpol span {
+    font-size: 35px;
+    color: white;
+    font-family: roboto-medium;
+}
+
+.content--copyright h5 {
+    color: white;
+    font-size: 20px;
+    font-family: roboto;
+}
+
+
+/* end footer */
+
+
+/* modal */
+
+.modal--content {
+    margin: 20%;
+}
+
+.modal--content p {
+    font-size: 20px;
+}
+
+.modal--content h1 {
+    color: #27AE60;
+}
+
+.footer__modal {
+    text-align: left !important;
+}
+
+.footer__modal p {
+    color: black;
+}
+
+.ftr-modal-close {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+/* end modal */
