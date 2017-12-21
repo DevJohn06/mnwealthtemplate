@@ -1,0 +1,51 @@
+title: About
+icon: newspaper-o
+pages: false
+preview: parent
+options: 
+  delete: false
+  status: false 
+  url: false
+  template: false
+files:
+  sanitize: true
+  sortable: true
+  size: 6000000
+  width: 4000
+  height: 3000
+fields:
+  title:
+    label: Title
+    type: title
+
+###texts
+  section_title: 
+    label: About section title
+    type: text
+  section_text: 
+    label: About section text
+    type: textarea
+    help: > 
+      Add a good description of what the company is all about.
+  button_text: 
+    label: Button text
+    type: text
+  button_link:
+    label: Button link
+    type: text
+    help: >
+      Button won't show if field is empty.
+
+###background-image
+  bkg_head:
+   label: Background settings
+   type: headline
+  bkg_img:
+   label: Background image
+   type: image
+   required: true
+   help: > 
+      Image should be 2000x1500 pixels. You can upload larger pictures, but they will be 
+      automatically resized down and cropped, as needed.
+
+
