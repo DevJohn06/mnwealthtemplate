@@ -21,7 +21,8 @@
 <!-- end cta -->
 
 <!-- news -->
-    <?php snippet('news') ?>        
+<!-- news blog page will be added soon -->
+    <?php // snippet('news') ?>        
 <!-- end news -->
 
 <!-- contact -->

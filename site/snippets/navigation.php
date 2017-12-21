@@ -19,9 +19,9 @@
                 <li class="nav-items">
                     <a href="#section-products" data-uk-smooth-scroll>Products</a>
                 </li>
-                <li class="nav-items">
+                <!-- <li class="nav-items">
                     <a href="#section-news" data-uk-smooth-scroll="{offset: -10;}">News</a>
-                </li>
+                </li> -->
                 <li class="nav-items">
                     <a href="#section-contact" data-uk-smooth-scroll>Contact</a>
                 </li>
