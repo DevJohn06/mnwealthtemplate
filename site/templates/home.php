@@ -5,7 +5,9 @@
 <!-- navigation-->
 
 <!-- herobanner -->
-    <?php snippet('herobanner') ?>
+    <?php 
+    $herobanner = $page->children()->find('herobanner');
+    snippet('herobanner', array("data" => $herobanner)) ?>
 <!-- end herobanner -->
 
 <!-- about -->

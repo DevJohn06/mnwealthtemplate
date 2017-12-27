@@ -11,6 +11,7 @@
 .content--herobanner {
     position: relative;
 }
+
 .content__header--banner-1 {
     font-size: 7rem;
     padding-top: 100px;     
@@ -19,7 +20,6 @@
 
 .content__header--banner-2 {
     font-size: 2rem;
-    padding-top: 30px;
     font-family: roboto-medium;
 }
 

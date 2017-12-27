@@ -1,0 +1,17 @@
+Title: herobanner
+
+----
+
+Banner-text: My nature's wealth
+
+----
+
+Banner-subtext: Your tagline here!
+
+----
+
+Button-text: Register now!
+
+----
+
+Bkg-img: hero-bkg-min.jpg
