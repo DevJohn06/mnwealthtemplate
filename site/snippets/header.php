@@ -1,26 +1,35 @@
-<!doctype html>
-<html lang="<?= site()->language() ? site()->language()->code() : 'en' ?>">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mnwealth</title>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- UIKIT CSS STYLESHEETS -->
+    <link rel="stylesheet" href="assets/uikit/css/uikit.min.css">
+    <link rel="stylesheet" href="assets/uikit/css/components/slideshow.min.css">
+    <link rel="stylesheet" href="assets/uikit/css/components/slidenav.min.css">
+    <link rel="stylesheet" href="assets/uikit/css/components/slider.min.css">
+    <link rel="stylesheet" href="assets/uikit/css/components/dotnav.min.css">
+    <link rel="stylesheet" href="assets/uikit/css/components/accordion.min.css">
 
-  <title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
-  <meta name="description" content="<?= $site->description()->html() ?>">
+    <!-- TEXT INPUT CSS STYLESHEETS -->
+    <link rel="stylesheet" href="assets/css/custominput.css">
 
-  <?= css('assets/css/index.css') ?>
+    <!-- CUSTOMIZED CSS STYLESHEETS -->
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+
+    <!-- JS SCRIPTS -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/uikit/js/uikit.min.js"></script>
+    <script src="assets/uikit/js/components/slideshow.min.js"></script>
+    <script src="assets/uikit/js/components/slideset.min.js"></script>
+    <!-- <script src="assets/uikit/js/components/dotnav.min.js"></script> -->
+    <script src="assets/uikit/js/components/slider.min.js"></script>
+    <script src="assets/uikit/js/components/accordion.min.js"></script>
 
 </head>
-<body>
-
-  <header class="header wrap wide" role="banner">
-    <div class="grid">
-
-      <div class="branding column">
-        <a href="<?= url() ?>" rel="home"><?= $site->title()->html() ?></a>
-      </div>
-
-      <?php snippet('menu') ?>
-
-    </div>
-  </header>
