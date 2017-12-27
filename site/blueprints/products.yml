@@ -1,0 +1,56 @@
+title: About
+icon: newspaper-o
+pages: false
+preview: parent
+options: 
+  delete: false
+  status: false 
+  url: false
+  template: false
+files:
+  sanitize: true
+  sortable: true
+  size: 6000000
+  width: 4000
+  height: 3000
+fields:
+  title:
+    label: Title
+    type: title
+
+###texts
+  section_title: 
+    label: Product section title
+    type: text
+  about_text: 
+    label: Product section text
+    type: textarea
+    help: > 
+      A good hefty text about your products.
+
+###structured field
+  product_items:
+    label: Products
+    type: structure
+    modalsize: large
+    entry: >
+      {{product_name}}
+    fields: 
+      product_name: 
+        label: Product name
+        type: text
+        required: true
+      product_description: 
+        label: Product description
+        type: text
+        required: true
+      product_image:
+        label: Product image
+        type: image
+        required: true
+        help: > 
+          Image should be 2000x1500 pixels. You can upload larger pictures, but they will be
+          automatically resized down and cropped as needed.
+
+
+

@@ -1,4 +1,4 @@
-title: About
+title: Herobanner
 icon: newspaper-o
 pages: false
 preview: parent
@@ -19,22 +19,15 @@ fields:
     type: title
 
 ###texts
-  section_title: 
-    label: About section title
-    type: text
-  section_text: 
-    label: About section text
-    type: textarea
-    help: > 
-      Add a good description of what the company is all about.
+  banner_text: 
+    label: Banner text
+    type: title
+  banner_subtext: 
+    label: Banner subtext
+    type: title
   button_text: 
     label: Button text
-    type: text
-  button_link:
-    label: Button link
-    type: text
-    help: >
-      Button won't show if field is empty.
+    type: title
 
 ###background-image
   bkg_head:
