@@ -11,7 +11,9 @@
 <!-- end herobanner -->
 
 <!-- about -->
-    <?php snippet('about') ?>
+    <?php 
+    $about = $page->children()->find('about');
+    snippet('about', array("data" => $about)); ?>
 <!-- end about -->
 
 <!-- products -->
