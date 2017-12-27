@@ -130,8 +130,6 @@ body {
 .uk-slidenav-contrast:hover {
     color: #27AE60;
 }
-
-
 /* end nav */
 
 
@@ -179,7 +177,10 @@ body {
     background-color: #F7F9E5;
 }
 
-
+.section--product-item-title {
+    color: #27AE60;
+    font-size: 23px;
+}
 /* end section */
 
 
