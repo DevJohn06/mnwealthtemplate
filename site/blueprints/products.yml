@@ -1,4 +1,4 @@
-title: About
+title: Products
 icon: newspaper-o
 pages: false
 preview: parent
@@ -22,7 +22,7 @@ fields:
   section_title: 
     label: Product section title
     type: text
-  about_text: 
+  section_text: 
     label: Product section text
     type: textarea
     help: > 
@@ -42,7 +42,7 @@ fields:
         required: true
       product_description: 
         label: Product description
-        type: text
+        type: textarea
         required: true
       product_image:
         label: Product image

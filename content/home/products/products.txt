@@ -1,0 +1,40 @@
+Title: products
+
+----
+
+Section-title: Products
+
+----
+
+About-text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+----
+
+Product-items: 
+
+- 
+  product_name: Charcoal Soap
+  product_description: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna
+    aliqua. Ut enim ad minim veniam, quis
+    nostrud exercitation ullamco laboris
+    nisi ut aliquip ex ea commodo consequat.
+  product_image: charcoal_soap.png
+- 
+  product_name: Kojic soap
+  product_description: >
+    At vero eos et accusamus et iusto odio
+    dignissimos ducimus qui blanditiis
+    praesentium voluptatum deleniti atque
+    corrupti quos dolores et quas molestias
+    excepturi sint occaecati cupiditate non
+    provident, similique sunt in culpa qui
+    officia deserunt mollitia animi, id est
+    laborum et dolorum fuga.
+  product_image: papaya_soap.png
+
+----
+
+Section-text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

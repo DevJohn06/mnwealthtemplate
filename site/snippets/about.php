@@ -18,8 +18,6 @@
             </div>
             <div class="uk-width-large-1-2">          
                 <img class="img--about" src=" <?php if($img = $data->image($data->bkg_img())){ echo thumb($img,array('width'=>2500, 'height'=>1500, 'crop'=>true))->url(); }?> " alt="">
-      
-
             </div>
         </div>
     </section>

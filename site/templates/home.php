@@ -17,7 +17,9 @@
 <!-- end about -->
 
 <!-- products -->
-    <?php snippet('products') ?>
+    <?php 
+    $products = $page->children()->find('products');
+    snippet('products', array("data" => $products)); ?>
 <!-- end products -->
 
 <!-- cta -->
